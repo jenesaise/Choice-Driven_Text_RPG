@@ -1,0 +1,33 @@
+storymap = {"Chapter 1" : "You are at a door.....what is going to be your next choice?" #pair 1 of storymap
+           ,"choice 1" : {   #pair 2 of storymap
+                         "Chapter 2:" : "You are at abc" #pair 1 of choice 1
+
+                         ,"choice 11" : {              #pair 2 of choice 1
+                                        "Chapter 3:" :"You are at def",                #pair 1 of choice 11
+                                        "choice 111" : {"Last  chapter: " : "reach an end"}, #pair 2 of choice 11
+                                        "choice 112" : {"Last chapter: " : "reach an end"}  #pair 3 of choice 11
+                                        }
+#choice 111 and choice 112 each habe only one pair which is just ending message
+                         ,"choice 12" : {             #pair 3 of choice 1
+                                        "CHapter 3" :"You are at def",
+                                        "choice 121" : {"Last chapter: " : "reach an end"},
+                                        "choice 122" : {"Last chapter: " : "reach an end"}
+                                        }
+                         }
+
+           ,"choice 2": {  # pair 3 of storymap
+                         "Chapter 2:": "You are at abc"  # pair 1 of choice 2
+
+                         , "choice 21": {              # pair 2 of choice 2
+                                        "Chapter 3:": "You are at def",              # pair 1 of choice 22
+                                        "choice 111": {"Last chapter: ": "reach an end"}, # pair 2 of choice 22
+                                        "choice 112": {"Last Chapter ": "reach an end"}  # pair 3 of choice 22
+                                        }
+
+                         , "choice 22": {             # pair 3 of choice 2
+                                        "Chapter 3": "You are at def",
+                                        "choice 121": {"Last chapter: ": "reach an end"},
+                                        "choice 122": {"Last chapter: ": "reach an end"}
+                                        }
+                         }
+           }
