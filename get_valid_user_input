@@ -1,4 +1,4 @@
-def get_valid_user_input(current_scenem, user_input): #current_scene is a scene from the story map
+def get_valid_user_input(current_scene, user_input): #current_scene is a scene from the story map
     available_choices = []
     for key in current_scene:
         if key.startswith("choice"):
