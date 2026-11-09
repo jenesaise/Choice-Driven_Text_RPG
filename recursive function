@@ -2,12 +2,8 @@ def box_open(boxstring):
     if ">" not in boxstring:
         return boxstring
     else:
-        for i in range(len(boxstring)):
-            if boxstring[i] == ">":
-                splitpos = i
-                break
+        splitpos = boxstring.find(">")
         return box_open(boxstring[splitpos+2:])       #+2 to account for the space after >
-
 
 #example:
 instring = "outerbox > innerbox > innermostbox > BOUNTY"
