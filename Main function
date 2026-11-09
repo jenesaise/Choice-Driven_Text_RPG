@@ -1,1 +1,240 @@
-....
+storymap = {
+            "Stage 1": "Fog blankets the dark street at 9:00 PM. A strange Victorian house glows with violet light at the end of the block, while a carved pumpkin on its porch whispers your name softly. Next to the estate, a rusty iron gate leads toward an old neighborhood graveyard."
+            ,"choice 1": {
+                          "text": "Step onto the creaking front porch."
+                          ,"Stage 2": "You step onto the wooden porch. The front door stands slightly ajar, revealing a pitch-black hallway. Wax melts from the glowing pumpkin, exposing a heavy silver key inside sticky pulp."
+                          ,"choice 1.1": {
+                                          "text": "Reach into the sticky pumpkin pulp."
+                                          ,"Stage 3": "You pull out the sticky silver key. Pushing past the front door, you enter a dark hallway lined with strange mirrors. Cobwebs brush your arms, and an iron cellar door waits at the end. & Tools: Silver Key"
+                                          ,"choice 1.1.1": {
+                                                          "text": "Insert the silver key into the iron door. * Tools: Silver Key"
+                                                          ,"Stage 4": "The iron door unlocks into a cellar filled with bubbling glass cauldrons. Three glowing velvet boxes sit quietly on a stone table. Magic fills the cold room. & Diamonds: +10"
+                                                          ,"choice 1.1.1.1": {"text": "Open the smallest velvet box."}
+                                                          ,"choice 1.1.1.2": {"text": "Touch the largest velvet box."}
+                                                          ,"choice 1.1.1.3": {"text": "Grab the middle velvet box."}
+                                                         }
+                                          ,"choice 1.1.2": {
+                                                          "text": "Wipe the pumpkin pulp on your clothes."
+                                                          ,"Stage 4": "Glowing pulp transforms into a swarm of black moths. They carry you upward through a hole in the ceiling, landing you safely in an attic full of old wooden crates. & Diamonds: +5"
+                                                          ,"choice 1.1.2.1": {"text": "Search the wooden attic crates."}
+                                                          ,"choice 1.1.2.2": {"text": "Drop through the attic trapdoor."}
+                                                          ,"choice 1.1.2.3": {"text": "Follow the purple smoke down."}
+                                                         }
+                                          ,"choice 1.1.3": {
+                                                          "text": "Drop the key and push the front door open."
+                                                          ,"Stage 4": "You walk into the hallway. All your mirror reflections grin and point down toward a blood-red carpet. A hidden trapdoor rests underneath it."
+                                                          ,"choice 1.1.3.1": {"text": "Open the linen bundle inside."}
+                                                          ,"choice 1.1.3.2": {"text": "Step inside the glass mirror."}
+                                                          ,"choice 1.1.3.3": {"text": "Pocket the silver coins below."}
+                                                         }
+                                         }
+                          ,"choice 1.2": {
+                                          "text": "Ring the ancient porch bell."
+                                          ,"Stage 3": "The ancient bell chimes loudly. A figure wearing a porcelain mask opens the door, silently holding out a glass bowl filled with glowing sweets mixed with sharp needles."
+                                          ,"choice 1.2.1": {
+                                                           "text": "Pick a wrapped black truffle carefully."
+                                                           ,"Stage 4": "The masked figure nods slowly and steps aside. Parlor doors behind them swing wide open, revealing a room glowing with mysterious magic. & Diamonds: +10"
+                                                           ,"choice 1.2.1.1": {"text": "Solve the master puzzle box."}
+                                                           ,"choice 1.2.1.2": {"text": "Walk into the sweet smoke."}
+                                                           ,"choice 1.2.1.3": {"text": "Slide down the laundry chute."}
+                                                          }
+                                          ,"choice 1.2.2": {
+                                                           "text": "Refuse the bowl and demand real candy."
+                                                           ,"Stage 4": "The porcelain mask cracks wide open. A floating spectral orb drifts out from inside, filling the long hallway with chilling ghostly light. & HP: -10"
+                                                           ,"choice 1.2.2.1": {"text": "Follow the floating spectral light."}
+                                                           ,"choice 1.2.2.2": {"text": "Run from the chilling wind."}
+                                                           ,"choice 1.2.2.3": {"text": "Catch the raining candy drops."}
+                                                          }
+                                          ,"choice 1.2.3": {
+                                                           "text": "Slap the bowl out of their hands."
+                                                           ,"Stage 4": "You leap off the porch and sprint toward the dark backyard gardens. Night wind howls around you as tall hedges hide your path. & HP: -15"
+                                                           ,"choice 1.2.3.1": {"text": "Open the iron casket hidden."}
+                                                           ,"choice 1.2.3.2": {"text": "Search through the garden weeds."}
+                                                           ,"choice 1.2.3.3": {"text": "Eat the gourmet chocolates found."}
+                                                          }
+                                         }
+                          ,"choice 1.3": {
+                                          "text": "Run off the porch back to the street."
+                                          ,"Stage 3": "As you turn around, the wooden porch steps collapse underneath your feet. You slide down a steep dirt chute, landing deep inside dark underground caverns. & HP: -10"
+                                          ,"choice 1.3.1": {
+                                                           "text": "Walk to the glowing stone altar."
+                                                           ,"Stage 4": "Stone pedestals in the cavern hold heavy chests. Glowing light fills the cave as giant carved pumpkin mouths open wide."
+                                                           ,"choice 1.3.1.1": {"text": "Open the glowing crystal jar."}
+                                                           ,"choice 1.3.1.2": {"text": "Escape through the side tunnel."}
+                                                           ,"choice 1.3.1.3": {"text": "Grab three golden apples."}
+                                                          }
+                                          ,"choice 1.3.2": {
+                                                           "text": "Crawl through the low tunnel."
+                                                           ,"Stage 4": "You crawl into a narrow passage. An abandoned wooden minecart sits on rusted tracks that lead up toward a light. & Tools: Flashlight"
+                                                           ,"choice 1.3.2.1": {"text": "Ride the wooden minecart upward * Tools: Flashlight"}
+                                                           ,"choice 1.3.2.2": {"text": "Jump directly into leaf piles."}
+                                                           ,"choice 1.3.2.3": {"text": "Open the vintage toy chest."}
+                                                          }
+                                          ,"choice 1.3.3": {
+                                                           "text": "Sit down and strike a match."
+                                                           ,"Stage 4": "Sparks illuminate damp stone walls scrawled with frantic warnings. Whispering shadows circle close around you in the dark. & HP: -5"
+                                                           ,"choice 1.3.3.1": {"text": "Unlock the secret wall safe."}
+                                                           ,"choice 1.3.3.2": {"text": "Run away from cold hands."}
+                                                           ,"choice 1.3.3.3": {"text": "Step behind sliding stone panels."}
+                                                          }
+                                         }
+                         }
+            ,"choice 2": {
+                          "text": "Bypass the porch into the backyard."
+                          ,"Stage 2": "You walk past the front porch into the overgrown backyard. A massive hollow oak tree stands near the fence, its trunk whispering dark secrets into the foggy night."
+                          ,"choice 2.1": {
+                                          "text": "Reach inside the hollow trunk."
+                                          ,"Stage 3": "Your fingers brush cold metal. You pull out a bronze skull key wrapped in spiderwebs. Right next to the tree roots, heavy cellar doors sit locked in the dirt. & Tools: Bronze Key"
+                                          ,"choice 2.1.1": {
+                                                            "text": "Use the key on root doors * Tools: Bronze Key"
+                                                            ,"Stage 4": "The cellar doors swing open into a damp underground room. Mystery packages sit wrapped on an old wooden table."
+                                                            ,"choice 2.1.1.1": {"text": "Unwrap the mossy package."}
+                                                            ,"choice 2.1.1.2": {"text": "Pry open the jammed door."}
+                                                            ,"choice 2.1.1.3": {"text": "Collect all the chocolate coins."}
+                                                           }
+                                          ,"choice 2.1.2": {
+                                                            "text": "Pull your empty hand out quickly."
+                                                            ,"Stage 4": "Shadows emerge from the oak bark. A figure holding an antique lantern appears, swirling thick fog around the yard."
+                                                            ,"choice 2.1.2.1": {"text": "Follow the glowing lantern light."}
+                                                            ,"choice 2.1.2.2": {"text": "Reach out toward thin air."}
+                                                            ,"choice 2.1.2.3": {"text": "Take the glowing glass jar."}
+                                                           }
+                                          ,"choice 2.1.3": {
+                                                            "text": "Knock on the oak bark three times."
+                                                            ,"Stage 4": "The ground shakes. The roots split open to reveal a stone staircase spiraling down into total darkness. & HP: -5"
+                                                            ,"choice 2.1.3.1": {"text": "Inspect the heavy granite box."}
+                                                            ,"choice 2.1.3.2": {"text": "Slide down the soft leaves."}
+                                                            ,"choice 2.1.3.3": {"text": "Pick glowing bubblegum mushrooms."}
+                                                           }
+                                         }
+                          ,"choice 2.2": {
+                                          "text": "Jump over the wooden fence."
+                                          ,"Stage 3": "You land in an overgrown witch's herb garden. Glowing purple pumpkins grow on thick thorny vines, and a gravel path winds toward a gazebo. & HP: -5"
+                                          ,"choice 2.2.1": {
+                                                            "text": "Pick a glowing purple pumpkin."
+                                                            ,"Stage 4": "The purple pumpkin cracks open, revealing a velvet pouch nestled inside. Strange magic pulses warmly around your hands. & Diamonds: +10"
+                                                            ,"choice 2.2.1.1": {"text": "Open the soft velvet pouch."}
+                                                            ,"choice 2.2.1.2": {"text": "Wipe sticky purple goo off."}
+                                                            ,"choice 2.2.1.3": {"text": "Unwrap the shiny foil treats."}
+                                                           }
+                                          ,"choice 2.2.2": {
+                                                            "text": "Follow the winding gravel path."
+                                                            ,"Stage 4": "You reach the stone gazebo. Soft candlelight flickers on a table holding a silver tin while a black cat watches you."
+                                                            ,"choice 2.2.2.1": {"text": "Inspect the shiny silver tin."}
+                                                            ,"choice 2.2.2.2": {"text": "Relight all blown candles."}
+                                                            ,"choice 2.2.2.3": {"text": "Pet the black cat sitting."}
+                                                           }
+                                          ,"choice 2.2.3": {
+                                                            "text": "Hide behind the stone fountain."
+                                                            ,"Stage 4": "Figures in pointed hats walk by carrying trays of fresh pastries. Dark shadows keep you completely hidden."
+                                                            ,"choice 2.2.3.1": {"text": "Solve the pastry tin puzzle."}
+                                                            ,"choice 2.2.3.2": {"text": "Dodge the giant croaking toad."}
+                                                            ,"choice 2.2.3.3": {"text": "Take fresh candied apples left."}
+                                                           }
+                                         }
+                          ,"choice 2.3": {
+                                          "text": "Inspect the metal storm doors."
+                                          ,"Stage 3": "You spot basement storm doors built into the side of the house. Heavy chains lock them, but the rusted padlock looks weak. & Tools: Iron Crowbar"
+                                          ,"choice 2.3.1": {
+                                                            "text": "Smash the rusted padlock open."
+                                                            ,"Stage 4": "You smash the lock with a stone. The doors fly open, releasing a rush of cold air from the dark basement below. & HP: -10"
+                                                            ,"choice 2.3.1.1": {"text": "Open the small lock box."}
+                                                            ,"choice 2.3.1.2": {"text": "Outrun the loud yard guards."}
+                                                            ,"choice 2.3.1.3": {"text": "Grab vintage candy bar boxes."}
+                                                           }
+                                          ,"choice 2.3.2": {
+                                                            "text": "Peer inside through glass window * Tools: Iron Crowbar"
+                                                            ,"Stage 4": "Looking through the glass pane, you see bags of glowing candy stacked floor-to-ceiling inside a secret storage room."
+                                                            ,"choice 2.3.2.1": {"text": "Climb through broken glass pane."}
+                                                            ,"choice 2.3.2.2": {"text": "Scare away cawing black crows."}
+                                                            ,"choice 2.3.2.3": {"text": "Hook candy using long sticks."}
+                                                           }
+                                          ,"choice 2.3.3": {
+                                                            "text": "Sit on doors to read map."
+                                                            ,"Stage 4": "You sit on the doors to check your map. A secret hatch pops open underneath you, sliding you down onto soft foam."
+                                                            ,"choice 2.3.3.1": {"text": "Open secret door slot compartment."}
+                                                            ,"choice 2.3.3.2": {"text": "Bounce down onto soft mattresses."}
+                                                            ,"choice 2.3.3.3": {"text": "Pick up stray dropped cash."}
+                                                           }
+                                         }
+                         }
+            ,"choice 3": {
+                          "text": "Head toward the old graveyard gate."
+                          ,"Stage 2": "You head toward the rusty iron gate beside the house. Fog rolls over old gravestones as mysterious lights dance inside the cemetery."
+                          ,"choice 3.1": {
+                                          "text": "Step through iron gates inside."
+                                          ,"Stage 3": "You walk past the gate into the silent cemetery. Will-o'-the-wisps light up a gravel path leading past stone tombstones."
+                                          ,"choice 3.1.1": {
+                                                            "text": "Enter the open stone mausoleum."
+                                                            ,"Stage 4": "The gravel path leads to a stone mausoleum. Inside, candles flicker around a velvet altar holding a stone coffin."
+                                                            ,"choice 3.1.1.1": {"text": "Open the heavy stone coffin."}
+                                                            ,"choice 3.1.1.2": {"text": "Find secret floor escape hatch."}
+                                                            ,"choice 3.1.1.3": {"text": "Eat glowing sugar gummy worms."}
+                                                           }
+                                          ,"choice 3.1.2": {
+                                                            "text": "Rest on the stone bench."
+                                                            ,"Stage 4": "You sit on a stone bench. A friendly specter floats down from an autumn tree, holding a basket of glittering fruit. & HP: +5"
+                                                            ,"choice 3.1.2.1": {"text": "Open the ghostly tin box."}
+                                                            ,"choice 3.1.2.2": {"text": "Laugh off the loud boo."}
+                                                            ,"choice 3.1.2.3": {"text": "Pack away sweet sugar plums."}
+                                                           }
+                                          ,"choice 3.1.3": {
+                                                            "text": "Walk toward marble angel statue."
+                                                            ,"Stage 4": "You approach a marble angel statue. In its hands, a carved lantern gleams with hidden light. & Tools: Silver Coin"
+                                                            ,"choice 3.1.3.1": {"text": "Inspect the dark iron tin * Tools: Silver Coin."}
+                                                            ,"choice 3.1.3.2": {"text": "Dodge turning marble statue heads."}
+                                                            ,"choice 3.1.3.3": {"text": "Collect antique silver coins found."}
+                                                           }
+                                          }
+                          ,"choice 3.2": {
+                                          "text": "Walk along the iron fence."
+                                          ,"Stage 3": "Instead of entering, you follow the perimeter fence. You spot an old leather sack hanging from one of the iron spikes. & Tools: Brass Key"
+                                          ,"choice 3.2.1":{
+                                                           "text": "Untie the leather sack carefully * Tools: Brass Key"
+                                                           ,"Stage 4": "You untie the sack to find a brass key and a map pointing toward an old stone chapel built against the fence."
+                                                           ,"choice 3.2.1.1": {"text": "Open the chapel vault door."}
+                                                           ,"choice 3.2.1.2": {"text": "Follow fading map lines drawn."}
+                                                           ,"choice 3.2.1.3": {"text": "Unlock wooden storage cabinets inside."}
+                                                          }
+                                          ,"choice 3.2.2": {
+                                                            "text": "Walk toward distant campfire lights."
+                                                            ,"Stage 4": "Following the fence leads to a campfire where local trick-or-treaters gather to trade candy and share scary stories. & Diamonds: +5"
+                                                            ,"choice 3.2.2.1": {"text": "Solve the chocolate flame bar."}
+                                                            ,"choice 3.2.2.2": {"text": "Brush off flying fire sparks."}
+                                                            ,"choice 3.2.2.3": {"text": "Share your spookiest Halloween tale."}
+                                                           }
+                                          ,"choice 3.2.3": {
+                                                            "text": "Follow wrapped candy trail."
+                                                            ,"Stage 4": "Your flashlight catches a trail of wrapped candies dropped along the fence, leading into a secret grove of trees. & Diamonds: +10"
+                                                            ,"choice 3.2.3.1": {"text": "Open the ribbon sleeve box."}
+                                                            ,"choice 3.2.3.2": {"text": "Wash off wet mud splashes."}
+                                                            ,"choice 3.2.3.3": {"text": "Gather up shiny wrapper loot."}
+                                                           }
+                                         }
+                          ,"choice 3.3": {
+                                          "text": "Take shortcut through cornfield."
+                                          ,"Stage 3": "You detour into a dense cornfield bordering the graveyard. Towering cornstalks block out the moonlight as wind rustles through the maze. & HP: -5"
+                                          ,"choice 3.3.1": {
+                                                            "text": "Walk toward the wooden scarecrow."
+                                                            ,"Stage 4": "You reach a clearing in the corn where a scarecrow stands holding a carved wooden mystery box."
+                                                            ,"choice 3.3.1.1": {"text": "Open the carved corn casket."}
+                                                            ,"choice 3.3.1.2": {"text": "Flick away giant fake spiders."}
+                                                            ,"choice 3.3.1.3": {"text": "Take bags of sweet candy corn."}
+                                                           }
+                                          ,"choice 3.3.2": {
+                                                            "text": "Run deep through corn rows."
+                                                            ,"Stage 4": "You sprint deeper into the maze. You trip into an old underground storm bunker hidden between the stalks. & HP: -15"
+                                                            ,"choice 3.3.2.1": {"text": "Open the metal survival tin."}
+                                                            ,"choice 3.3.2.2": {"text": "Break through tall corn stalks."}
+                                                            ,"choice 3.3.2.3": {"text": "Follow the friendly stray dog."}
+                                                           }
+                                          ,"choice 3.3.3": {
+                                                            "text": "Look up at the full moon."
+                                                            ,"Stage 4": "You use the moonlight to navigate out of the field, stepping onto a lit street where houses give away big treats. & Diamonds: +5"
+                                                            ,"choice 3.3.3.1": {"text": "Share the group prize box * Diamonds: 10"}
+                                                            ,"choice 3.3.3.2": {"text": "Follow rustling autumn wind sounds."}
+                                                            ,"choice 3.3.3.3": {"text": "Visit full-sized candy bar houses."}
+                                                           }
+                                         }
+                         }
+           }
