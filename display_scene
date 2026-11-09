@@ -1,0 +1,34 @@
+
+def display_scene(current_scene): #current_scene is a scene from the story map
+    for key in current_scene:
+        if key.startswith("Stage"): 
+            print("\n" + "=" * 60) #saw this standard of displaying output prettily, we dont need to do this so lmk
+            print(key.upper())
+            print("=" * 60)
+            scene_text = current_scene[key].split(" & ")[0] #this is just displaying the actual story and not the game info (splitting by making a list)
+            print(scene_text)
+
+    # If this is a final choice, display its text
+    if "text" in current_scene:
+        stage_found = False
+        for key in current_scene:
+            if key.startswith("Stage"):
+                stage_found = True
+        if stage_found == False:
+            print(current_scene["text"].split(" * ")[0])
+
+    print("\n" + "-" * 60)
+    print("PLAYER STATUS")
+    print("-" * 60)
+    print("HP:", hp)
+    print("Diamonds:", diamonds)
+    print("Inventory:", toollist)
+   
+    print("\nAVAILABLE CHOICES")
+    choice_number = 1
+    for key in current_scene:
+        if key.startswith("choice"):
+            choice_text = current_scene[key]["text"].split(" * ")[0] #we dont want the user to see the tools, we just want to display the first part of our choice in the dictionary, we're doing this by creating a list using the split function then calling the text line that we do want to be displayed
+            print(str(choice_number) + ".", choice_text)
+            choice_number += 1
+    print("=" * 60) #ending text line prettily 
