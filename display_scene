@@ -1,4 +1,4 @@
-
+current_scene = storymap
 def display_scene(current_scene): #current_scene is a scene from the story map
     for key in current_scene:
         if key.startswith("Stage"): 
@@ -7,7 +7,7 @@ def display_scene(current_scene): #current_scene is a scene from the story map
             print("=" * 60)
             scene_text = current_scene[key].split(" & ")[0] #this is just displaying the actual story and not the game info (splitting by making a list)
             print(scene_text)
-
+    
     # If this is a final choice, display its text
     if "text" in current_scene:
         stage_found = False
