@@ -8,9 +8,9 @@ def valid_user_input():
     pass
 
 toollist = []
-diamonds = 0 #you collect throughout. no of dismonds = score. max = 100. only one possible path where you can get 100 diamonds total
+diamonds = 0 
 hp = 100
-choicelist= [0] * 4
+#choicelist= [0] * 4   are we even using this?
 for chapter in range(1,5):
     if hp != 0:
         display_choice()
