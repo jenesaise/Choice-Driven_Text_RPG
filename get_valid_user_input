@@ -1,0 +1,24 @@
+def get_valid_user_input(current_scene): #current_scene is a scene from the story map
+    available_choices = []
+    for key in current_scene:
+        if key.startswith("choice"):
+            available_choices.append(key)
+    while True:
+        user_input = input("Enter your choice: ")
+        if user_input.isdigit():
+            choice_number = int(user_input)
+            if choice_number >= 1 and choice_number <= len(available_choices):
+                return available_choices[choice_number - 1] #returns the key of the dictionary
+            else:
+                print("Invalid choice! Please select an available option.")
+        else:
+            print("Invalid input! Please enter a number.")
+
+
+
+#main code adaptation (not final but it'll be similar)
+#if hp <= 0:
+    #print("\nYou have run out of HP! GAME OVER.")
+    #break
+#else:
+    #display_scene(current_scene)
