@@ -1,5 +1,5 @@
 storymap = {
-            "Stage 1": "Fog blankets the dark street at 9:00 PM. A strange Victorian house glows with violet light at the end of the block, while a carved pumpkin on its porch whispers your name softly. Next to the estate, a rusty iron gate leads toward an old neighborhood graveyard. (Starting Stats: HP: 100 | Diamonds: 0 | Inventory: [])"
+            "Stage 1": "Fog blankets the dark street at 9:00 PM. A strange Victorian house glows with violet light at the end of the block, while a carved pumpkin on its porch whispers your name softly. Next to the estate, a rusty iron gate leads toward an old neighborhood graveyard."
             ,"choice 1": {
                           "text": "Step onto the creaking front porch."
                           ,"Stage 2": "You step onto the wooden porch. The front door stands slightly ajar, revealing a pitch-black hallway. Wax melts from the glowing pumpkin, exposing a heavy silver key inside sticky pulp."
