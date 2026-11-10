@@ -16,9 +16,8 @@ def get_valid_user_input(current_scene, user_input): #current_scene is a scene f
             user_input = input("Enter your choice: ")
 
 
-
+current_scene = storymap
 for i in range(1,5):
-    current_scene = storymap
     if hp <= 0:
         print("\nYou have run out of HP! GAME OVER.")
         break
