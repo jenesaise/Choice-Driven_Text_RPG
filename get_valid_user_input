@@ -25,4 +25,18 @@ for i in range(4):
         display_scene(current_scene)
         user_input = input("Enter your choice: ")
         selected_choice = get_valid_user_input(current_scene, user_input)
-        current_scene = current_scene[selected_choice]  
+        current_scene = current_scene[selected_choice] 
+
+print("Wohoo! You found a big, pandora, box")
+import random
+diamondswon = random.randint(10,100)
+box = "Outermost box > Inside box > Innermost box > BOUNTY + " + str(diamondswon) + " diamonds"
+win = box_open(box)
+print("Congratulations!!You won:" , win)
+print("Exchanging all the diamonds for candy.....") #(add a time wali cheez here if can)
+diamonds_exchange = (diamondswon+diamonds) % 5
+if diamonds_exchange > 10:
+    print("You got 10 kinder bueno chocolates")
+else:
+    print("You got "+ str(diamonds_exchange) +  " kinder joy eggs")
+
