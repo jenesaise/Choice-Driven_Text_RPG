@@ -6,7 +6,7 @@ def get_valid_user_input(current_scene, user_input, choicelist): #current_scene 
     while True:
         if user_input.isdigit():
             if user_input >= 1 and user_input <= 3:
-                return available_choices[user_input - 1] #returns the key of the dictionary
+                return available_choices[user_input - 1], user_input #returns the key of the dictionary
             else:
                 print("Invalid choice! Please select an available option.")
                 user_input = input("Enter your choice: ")
