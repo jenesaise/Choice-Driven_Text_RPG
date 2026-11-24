@@ -1,4 +1,5 @@
 current_scene = storymap
+choicelist = []
 for i in range(4):
     if hp <= 0:
         print("\nYou have run out of HP! GAME OVER.")
@@ -6,6 +7,7 @@ for i in range(4):
     else:
         display_scene(current_scene)
         user_input = input("Enter your choice: ")
+        choicelist.append(user_input)
         selected_choice = get_valid_user_input(current_scene, user_input)
         current_scene = current_scene[selected_choice] 
 
