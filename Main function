@@ -1,5 +1,8 @@
 current_scene = storymap
 choicelist = []
+toollist = []
+diamonds = 0
+hp = 100
 for i in range(4):
     if hp <= 0:
         print("\nYou have run out of HP! GAME OVER.")
